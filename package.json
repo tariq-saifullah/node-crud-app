@@ -1,0 +1,23 @@
+{
+  "name": "node--practice",
+  "version": "1.0.0",
+  "description": "backend app",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm start",
+    "start": "nodemon start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u0016https://github.com/tariq-saifullah/node-app.git"
+  },
+  "author": "Tariq Saifullah",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^6.3.2",
+    "nodemon": "^2.0.16"
+  }
+}
